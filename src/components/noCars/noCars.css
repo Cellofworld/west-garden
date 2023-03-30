@@ -1,0 +1,51 @@
+
+.no-cars 
+.no-cars-main 
+.title, .subtitle {
+    width: 700px;
+}
+
+.no-car-img {
+    margin-top: 48px;
+}
+
+.cars-protect {
+    display: flex;
+    margin: 60px 100px;
+}
+
+.cars-protect-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 40px;
+}
+
+.cars-protect-desc-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 16px 0px 8px 0px;
+}
+
+.cars-protect-desc-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    color: #646562;
+}
+
+.cars-parking-item {
+    margin: 16px 0px 0px 0px;
+}
+
+.parking-title {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 4px;
+}
+
+.parking-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    color: #1A1A1A;
+
+}

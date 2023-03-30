@@ -1,0 +1,70 @@
+
+.healthy-cards-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px 80px;
+}
+
+.healthy-card-cont {
+    margin: 5px;
+    height: 400px;
+    display: flex;
+    border-radius: 5px;
+    position: relative;
+}
+
+.healthy-card {
+    width: 300px;
+    margin: 32px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-1 {
+    background-color: #BE6833;
+    color: white;
+}
+
+.card-6 {
+    background-color: #A0A747;
+    color: white;
+}
+
+.healthy-card-icon {
+    width: 140px;
+    height: 40px;
+}
+
+.healthy-card-title {
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: 16px;
+}
+
+.healthy-card-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.healthy-card-img-cont {
+    position: relative;
+    display: flex;
+}
+
+.healthy-card-img {
+    border-radius: 5px;
+    filter: brightness(80%);
+}
+
+.healthy-card-img-title {
+    position: absolute;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom: 18px;
+    width: fit-content;
+}

@@ -1,0 +1,54 @@
+
+
+.possibility {
+    background-color: #F7F1E9;
+}
+
+.possibility-cards-cont {
+    margin-top: 60px;
+}
+
+.possibility-card {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    margin-top: 12px;
+    border-radius: 10px;
+}
+
+.possibility-card-desc-cont {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    margin: 60px;
+
+}
+
+.possibility-card-desc-title {
+    font-weight: 500;
+    font-size: 36px;
+}
+
+.possibility-card-desc-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    width: 448px;
+    margin-top: 20px;
+}
+
+.possibility-button {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid #0A3CE4;
+    background-color: white;
+    color: #0A3CE4;
+    font-weight: 500;
+    width: 210px;
+    font-size: 20px;
+    margin-top: 80px;
+}
+
+.possibility-arrow-right {
+    margin-left: 10px;
+}

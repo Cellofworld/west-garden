@@ -1,0 +1,54 @@
+
+.estetic {
+    background-color: #F7F1E9;
+}
+
+.estetic-items-cont {
+    margin-top: 36px;
+}
+
+.estetic-sub-cont {
+    margin-top: 12px;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.estetic-sub-desc-cont {
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.elevator-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.estetic-sub-desc {
+    font-weight: 500;
+    font-size: 38px;
+}
+
+.estetic-points-cont {
+    display: flex;
+    margin: 20px 0px;
+    padding: 0px 40px;
+}
+
+.estetic-point {
+    display: flex;
+    margin: 0px 8px 0px 0px;
+    padding: 8px 16px;
+    background-color: #F7F1E9;
+}
+
+.star-icon {
+    margin-right: 8px;
+}
+
+.estetic-img-cont {
+    display: flex;
+    justify-content: space-around;
+}

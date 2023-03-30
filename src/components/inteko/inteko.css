@@ -1,0 +1,66 @@
+
+.inteko {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 80px 100px;
+    background-image: url(../../img/cta/inteco.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    border-radius: 12px;
+}
+
+.inteco-point {
+    margin: 26px 0px;
+}
+
+.inteko-points-cont {
+    margin-top: 54px;
+}
+
+.inteko-items-cont {
+    width: 400px;
+}
+
+.inteko-title {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.inteco-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+.inteko-point-title {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.inteko-point-subtitle {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.inteco-documents-title {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.inteco-documents-points {
+    margin-top: 12px;
+}
+
+.inteco-documents-point {
+    margin-bottom: 8px;
+    padding: 2px;
+    width: fit-content;
+    border-bottom: 1px solid grey;
+}
+
+.inteco-documents-point:hover {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+}

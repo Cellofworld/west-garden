@@ -1,0 +1,51 @@
+
+
+.claster {
+    color: white;
+}
+
+.river {
+    background-color: #1F2057;
+    padding-bottom: 80px;
+}
+
+.park {
+    background-color: #A0A747;
+    padding-bottom: 80px;
+}
+
+.claster-title-cont {
+    padding: 80px 100px;
+}
+
+.claster-title-items {
+    display: flex;
+}
+
+.claster-title {
+    font-weight: 700;
+    font-size: 48px;
+    margin-right: 12px;
+}
+
+.claster-subtitle-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.claster-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    width: 460px;
+    margin-top: 12px;
+}
+
+.see-planer-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    height: 48px;
+    font-weight: 500;
+    font-size: 18px;
+
+}

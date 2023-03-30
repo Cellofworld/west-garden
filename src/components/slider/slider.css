@@ -1,0 +1,72 @@
+
+.slider {
+    position: relative;
+}
+
+.controls {
+    position: absolute;
+}
+
+.prev-arrow {
+    position: absolute;
+    z-index: 2;
+    background-image: url(../../img/cta/arrowRight.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.48);
+    backdrop-filter: blur(12px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    left: 15px;
+    cursor: pointer;
+}
+
+.next-arrow {
+    position: absolute;
+    z-index: 2;
+    background-image: url(../../img/cta/arrowLeft.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.48);
+    backdrop-filter: blur(12px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    right: 15px;
+    cursor: pointer;
+
+}
+
+.dots {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.48);
+    backdrop-filter: blur(12px);
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: fit-content;
+}
+
+.dot {
+    color: white;
+    border: none;
+    padding: 8px;
+    border-bottom: 2px solid rgba(234, 227, 217, 0.2);
+    cursor: pointer;
+}
+
+.dot-active {
+    border-bottom: 2px solid #A0A747;
+}

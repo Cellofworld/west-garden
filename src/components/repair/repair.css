@@ -1,0 +1,45 @@
+
+
+.repair {
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   
+
+.repair-title-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.repair-items {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.repair-card-cont {
+    display: flex;
+    flex-direction: column;
+    width: 324px;
+}
+
+.repair-card-title {
+    font-weight: 500;
+    font-size: 24px;
+    width: 260px;
+    margin: 20px 0px 12px 0px;
+    padding-left: 24px;
+}
+
+.repair-card-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 24px;
+}
+

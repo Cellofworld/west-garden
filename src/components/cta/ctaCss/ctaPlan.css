@@ -1,0 +1,61 @@
+
+.cta-plan {
+    margin: 40px 130px;
+    width: 100%;
+    background: #773844;
+    border-radius: 12px;
+    
+}
+
+.cta-plan-desc-cont {
+    display: flex;
+    position: relative;
+}
+
+.cta-plan-img-cont {
+   position: absolute;
+   right: 0px;
+   bottom: -4px;
+}
+
+.cta-desc-title {
+    font-weight: 700;
+    font-size: 38px;
+    color: white;
+    width: 350px;
+}
+
+.cta-desc-sub {
+    font-weight: 500;
+    font-size: 22px;
+    color: #D6D1B2;
+    margin-top: 16px;
+    width: 400px;
+}
+
+.cta-plan-cont-title {
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cta-plan-record-button {
+    background-color: #D5B753;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.cta-plan-form {
+    margin-top: 80px;
+}
+
+.cta-plan-record-conf {
+    width: 560px;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+}

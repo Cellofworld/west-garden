@@ -1,0 +1,140 @@
+
+.block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    width: 900px;
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.subtitle {
+    margin-top: 24px;
+    color: #1A1A1A;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+.m-t-i-c {
+    width: 100%;
+    height: 600px;
+    background-image: url(../../img/otherImg/main.png);
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.winner {
+    background-color: white;
+    width: 200px;
+    height: 125px;
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+    margin-right: 40px;
+}
+
+.winner-title {
+   text-align: center;
+}
+
+.winner-img {
+    width: 35px;
+    height: 35px;
+}
+
+.order-items {
+   align-self: center;
+}
+
+.order-items {
+    display: flex;
+}
+
+.order-items-cont {
+    display: flex;
+    margin: 20px 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 4px 12px;
+}
+
+.order-items-title {
+    color: white;
+    margin-right: 15px;
+}
+
+.order-items-sub {
+    color: #A0A747;
+}
+
+.m-t-d-c {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 80px;
+   padding: 0px 130px;
+}
+
+.future-title {
+    width: 480px;
+    height: 310px;
+    background-size: 100% 100%;
+    margin: 20px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+}
+
+.f-d-c {
+    background-image: url(../../img/otherImg/bg_1.png);
+}
+
+.s-d-c {
+    background-image: url(../../img/otherImg/bg_2.png);
+}
+
+.t-d-c {
+    background-image: url(../../img/otherImg/bg_3.png);
+}
+
+.fo-d-c {
+    background-image: url(../../img/otherImg/bg_4.png);
+}
+
+.f-d-t {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: fit-content;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.f-d-s {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: fit-content;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 6px 10px;
+
+}

@@ -1,0 +1,29 @@
+
+
+.status-main-cont {
+    display: flex;
+    margin-top: 48px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.status-pionts-title {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.status-pionts {
+    margin-top: 12px;
+}
+
+.status-points-cont {
+    margin-right: 40px;
+    padding: 48px 35px;
+}
+
+.status-point {
+    display: flex;
+    margin: 20px 0px;
+    font-weight: 500;
+    font-size: 20px;
+}
